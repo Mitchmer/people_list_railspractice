@@ -6,7 +6,7 @@ class CreatePeople < ActiveRecord::Migration[5.1]
       t.string :hair_color
       t.string :eye_color
       t.string :gender
-      t.boolean :alive
+      t.string :alive
 
       t.timestamps
     end
